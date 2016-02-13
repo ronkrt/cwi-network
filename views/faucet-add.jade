@@ -1,0 +1,19 @@
+extends layout
+
+block content
+p
+    | Enter your Faucet Name
+  br
+  form
+    input(type='text', name='pnd_fname', size='64')
+    br
+    | Enter The Minimum amount to dispense
+    br
+    input(type='text', name='pnd_fmin', size='64')
+    br
+    | Enter The Maximum amount to dispense
+    br
+    input(type='text', name='pnd_fmax', size='64')
+    br
+    input(type='submit', value='Submit')
+
